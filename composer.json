@@ -1,0 +1,24 @@
+{
+    "name": "can/supercan",
+    "description": "CaoCan Dedicated package includes common functions",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "CaoCan",
+            "email": "353332645@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "can\\superCan\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">8.*",
+        "predis/predis": "^1.1"
+    }
+
+}
